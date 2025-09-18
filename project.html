@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project & Sertifikat</title>
+   <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+  <div class="navlist">
+    <div class="logo" data-aos="zoom-in" data-aos-duration="1500">Porto<span>Folio</span></div>
+    <div class="links">
+      <a href="#home" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="100">Home</a>
+      <a href="#about" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="200">About</a>
+      <a href="#skill" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="300">Skills</a>
+      <a href="#tab-projects" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="400">Project</a>
+      <a href="#tab-sertif" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="500">Sertif</a>
+      <a href="#contact" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="600">Contact</a>
+    </div>
+  </div>
+
+  <div id="menu-icon" class="hamburg" aria-label="Toggle menu">☰</div>
+
+  <!-- Dropdown menu -->
+  <nav class="dropdown">
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skill">Skills</a>
+      <a href="#tab-projects">Project</a>
+      <a href="#tab-sertif">Sertif</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+
+  <section id="portfolio" class="portfolio">
+  <div class="main-text">
+    <span>My Works</span>
+    <h2>Project & Certificates</h2>
+  </div>
+
+  <!-- Tab nav -->
+  <nav class="tab-nav">
+    <ul>
+      <li><a href="#tab-projects" class="tab-link active">Projects</a></li>
+      <li><a href="#tab-sertif" class="tab-link">Certificates</a></li>
+    </ul>
+  </nav>
+
+  <!-- Tab content -->
+  <div class="tab-content">
+    <!-- Projects -->
+    <div id="tab-projects" class="tab-panel active">
+      <div class="portofolio-gallery">
+        <div class="port-box">
+          <div class="port-image">
+            <img src="img/berita.jpg" alt="">
+          </div>
+          <div class="port-content">
+            <h3>Website Berita</h3>
+            <p>Situs web berita dengan CRUD artikel, autentikasi pengguna, dan manajemen peran.</p>
+            <a href="#" class="external-link"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box">
+          <div class="port-image">
+            <img src="img/tictactoe.jpg" alt="">
+          </div>
+          <div class="port-content">
+            <h3>Game TicTacToe</h3>
+            <p>Permainan dua pemain dengan logika sederhana menggunakan HTML, CSS, dan JavaScript.</p>
+            <a href="https://tictactoe-fhriyz.vercel.app/" target="_blank" class="external-link"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box">
+          <div class="port-image">
+            <img src="img/flappybird.jpg" alt="">
+          </div>
+          <div class="port-content">
+            <h3>Game Flappy Bird</h3>
+            <p>Adaptasi game Flappy Bird dengan Canvas API. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+            <a href="https://mhmdfahriy.github.io/FlaffyBird/" target="_blank" class="external-link"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box">
+          <div class="port-image">
+            <img src="img/quitenz.png" alt="">
+          </div>
+          <div class="port-content">
+            <h3>Quitenz App</h3>
+            <p>Aplikasi kuis berbasis C# dengan fitur login/register siswa, soal bergambar, dan panel admin.</p>
+            <a href="#" class="external-link"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certificates -->
+    <div id="tab-sertif" class="tab-panel">
+      <div class="cert-grid">
+        <div class="cert-card">
+          <img src="img/Sertif web.png" alt="Certificate 1">
+          <h4>Responsive Website</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="porto.js"></script>
+</body>
+</html>
