@@ -1066,6 +1066,11 @@ a.btn:hover {
     flex-wrap: wrap;
   }
 }
+  .footer[data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 
 @media (max-width: 480px) {
   body {
