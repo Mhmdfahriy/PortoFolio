@@ -84,7 +84,6 @@ span {
     align-items: center;
     border-bottom: 2px solid transparent;
     position: relative;
-    background-color: var(--bg-color);
 }
 
 .navlist a {
